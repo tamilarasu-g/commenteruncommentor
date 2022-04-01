@@ -21,7 +21,7 @@ HASH="#"
 
 if [[ "${FIRST_CHARACTER}" == "${HASH}" ]]
 then
-	echo -e "INTIAL : Line is already commented!!!"
+	echo -e "INTIIAL : Line is already commented!!!"
 	sed -i "${LINE_NUMBER}s/#//" ${FILE_NAME}
 	echo -e "FINAL : Line has now been uncommented!!!"
 else
